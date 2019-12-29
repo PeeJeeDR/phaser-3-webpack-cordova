@@ -81,12 +81,12 @@ cordova platform add android
 cordova run android
 ```
 
-#### build
+#### Build
 ```
 cordova build android
 ```
 
-#### build release
+#### Build release
 ```
 cordova build --release android
 ```
