@@ -31,6 +31,25 @@ yarn
 yarn serve
 ```
 
+In order to visit the project on another device (phone, ipad, etc.) you have to get the public ip address of your machine. You can do this by running the following command (in new terminal):
+
+**MAC**
+```
+yarn get-ip
+```
+
+Execute `ifconfig` is this doesn't work and find it there.
+
+**WINDOWS**
+```
+ipconfig
+```
+Find your IPv4 address.
+
+Now you can visit this ip in the browser on your external device followed by the `:PORT`. (ex. 192.168.1.5:8080)
+
+**make sure your devices are on the same network**
+
 #### Build the app
 This will put the builded files in the www folder (used by Cordova)
 
