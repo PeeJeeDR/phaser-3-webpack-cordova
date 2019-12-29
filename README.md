@@ -55,7 +55,7 @@ Find your IPv4 address.
 
 Now you can visit this ip address in the browser on your external device followed by the `:PORT`. (ex. http://192.168.1.5:8080)
 
-**make sure your devices are on the same network**
+**Make sure your devices are on the same network.**
 
 #### Build the app
 This will put the builded files in the www folder (used by Cordova)
