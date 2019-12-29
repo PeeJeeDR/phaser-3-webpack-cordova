@@ -1,0 +1,24 @@
+# System and IDE files
+Thumbs.db
+.DS_Store
+.idea
+*.suo
+*.sublime-project
+*.sublime-workspace
+*.vscode
+
+# Vendors
+node_modules
+platforms
+plugins
+hooks
+
+# Build
+www
+
+# Logs
+*.log
+
+# Package managers
+package-lock.json
+yarn.lock
