@@ -1,6 +1,8 @@
 # phaser-3-webpack-cordova
 A template boilerplate for making phaser 3 projects (could be other projects) and build them for android and ios (or browser) using Webpack and Cordova.
 
+![Image description](banner.png)
+
 ## Getting Started
 Installation steps to set this template up and running.
 
