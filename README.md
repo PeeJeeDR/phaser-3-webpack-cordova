@@ -17,9 +17,14 @@ git clone https://github.com/PeeJeeDR/phaser-3-webpack-cordova.git PROJECT_NAME
 cd PROJECT_NAME
 ```
 
-#### Remove git (and init new)
+#### Remove git
 ```
-rm -rf .git && git init
+rm -rf .git
+```
+
+Optional init own
+```
+git init
 ```
 
 #### Install dependecies
