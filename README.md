@@ -58,7 +58,7 @@ Now you can visit this ip address in the browser on your external device followe
 **Make sure your devices are on the same network.**
 
 #### Build the app
-This will put the builded files in the www folder (used by Cordova)
+This will put the builded files in the `www` folder (used by Cordova)
 
 ```
 yarn build
@@ -69,7 +69,7 @@ First update the config.xml to your prefences. (name, description, ...)
 
 In this example I will use android as example. Change `android` to `ios` for iOS build
 
-**Make sure you ran `yarn build` at least once and that the `www` folder present.**
+**Make sure you ran `yarn build` at least once so that the `www` folder is present.**
 
 #### Add prefered platform
 ```
