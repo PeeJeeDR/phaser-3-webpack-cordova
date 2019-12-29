@@ -22,7 +22,7 @@ cd PROJECT_NAME
 rm -rf .git
 ```
 
-Optional init own
+#### Optional init own
 ```
 git init
 ```
