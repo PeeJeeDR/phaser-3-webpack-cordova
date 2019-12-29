@@ -81,6 +81,11 @@ cordova platform add android
 cordova run android
 ```
 
+This command will run an emalator on your machine if you have installed Android studio (Android) or XCode (iOS).
+If you device is connected to your machine with a cable it should open there.
+
+**NOTE: There is no live/hot reload with the `cordova run` command. Use `yarn serve` instead to test on device.**
+
 #### Build
 ```
 cordova build android
