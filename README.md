@@ -38,14 +38,14 @@ yarn
 yarn serve
 ```
 
-In order to visit the project on another device (phone, ipad, etc.) you have to get the public ip address of your machine. You can do this by running the following command (in new terminal):
+On desktop visit http://localhost:8080 to open te project. In order to visit the project on another device (phone, ipad, etc.) you have to get the public ip address of your machine first. You can do this by running the following command (in new terminal):
 
 **MAC**
 ```
 yarn get-ip
 ```
 
-Execute `ifconfig` is this doesn't work and find it there.
+Execute `ifconfig` if this doesn't work and find it there.
 
 **WINDOWS**
 ```
@@ -53,7 +53,7 @@ ipconfig
 ```
 Find your IPv4 address.
 
-Now you can visit this ip in the browser on your external device followed by the `:PORT`. (ex. 192.168.1.5:8080)
+Now you can visit this ip address in the browser on your external device followed by the `:PORT`. (ex. http://192.168.1.5:8080)
 
 **make sure your devices are on the same network**
 
@@ -68,6 +68,8 @@ yarn build
 First update the config.xml to your prefences. (name, description, ...)
 
 In this example I will use android as example. Change `android` to `ios` for iOS build
+
+**Make sure you ran `yarn build` at least once and that the `www` folder present.**
 
 #### Add prefered platform
 ```
