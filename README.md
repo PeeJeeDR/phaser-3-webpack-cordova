@@ -43,7 +43,7 @@ yarn
 yarn serve
 ```
 
-On desktop visit http://localhost:8080 to open te project. In order to visit the project on another device (phone, ipad, etc.) you have to get the public ip address of your machine first. You can do this by running the following command (in new terminal):
+On desktop visit http://localhost:8080 to open the project. In order to visit the project on another device (phone, ipad, etc.) you wil have to get the public ip address of your machine first. You can do this by running the following command (in new terminal):
 
 **MAC**
 ```
@@ -70,9 +70,9 @@ yarn build
 ```
 
 ## Cordova
-First update the config.xml to your prefences. (name, description, ...)
+First update the config.xml to your preferences. (name, description, ...)
 
-In this example I will use android as example. Change `android` to `ios` for iOS build
+In this example I will use android as example. Change `android` to `ios` for iOS build.
 
 **Make sure you ran `yarn build` at least once so that the `www` folder is present.**
 
