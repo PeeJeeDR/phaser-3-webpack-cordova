@@ -18,7 +18,3 @@ www
 
 # Logs
 *.log
-
-# Package managers
-package-lock.json
-yarn.lock
